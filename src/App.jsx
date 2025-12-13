@@ -2,7 +2,7 @@ import "./App.css";
 import BioData from "./components/BioData";
 
 function App() {
-    console.log("I am invoked");
+    // console.log("I am invoked");
     return (
         <>
             <BioData

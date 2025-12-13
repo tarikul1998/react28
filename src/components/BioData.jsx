@@ -1,5 +1,6 @@
 const BioData = (props) => {
     // let age = 35;
+    console.log(props);
     return (
         <div className="bio-data">
             <div className="personal-info">
