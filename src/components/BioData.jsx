@@ -1,10 +1,11 @@
 const BioData = (props) => {
     // let age = 35;
-    console.log(props);
+    // console.log(props, "props");
     return (
         <div className="bio-data">
             <div className="personal-info">
                 <h2>BioData of {props.name}</h2>
+                {/* <h3>{age}</h3>  // JSX er vitore JS code likhle = Second Bracket {} dibo */}
                 <p>
                     <strong>Email: </strong>{props.email}
                 </p>
@@ -60,6 +61,4 @@ export default BioData;
  *   3) That "something" should be some html-ish code (jsx)
  */
 
-
-// JSX er vitore JS code likhle = Second Bracket {} dibo
-// <h3>{age}</h3>
+// Props is actually parameter
