@@ -41,6 +41,7 @@ function App() {
 
 export default App;
 
+// JSX = JavaScript XML
 // JSX er vitore JS code likhle = Second Bracket {} dibo, Eikhane JS ta array
 // skills={["JS", "WP", "CSS", "REACT", "Next"]}
 
