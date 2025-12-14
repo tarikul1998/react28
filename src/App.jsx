@@ -1,64 +1,55 @@
-import "./App.css";
-import BioData from "./components/BioData";
+import './App.css'
+import BioData from './components/BioData'
 
 function App() {
-    // console.log("I am invoked");
-    return (
-        <>
-            <BioData
-                name="SR Setu"
-                email="srsetu@gmail.com"
-                phone="+245456452132452"
-                github="github.com/srsetu"
-                skills={["JS", "WP", "CSS", "REACT", "Next"]}
-                interests={["Chess", "Football", "Entrepreneurship"]}
-                socialLinks={[
-                    { platformName: "FB", handle: "fb/srsetu" },
-                    { platformName: "Twitter", handle: "x/srsetu" },
-                    { platformName: "LinkedIn", handle: "linkedin/in/srsetu" }
-                ]}
-            />
-            <BioData
-                name="Mahir Asief"
-                email="asiefmahir1@gmail.com"
-                phone="+43543543545"
-                github="github.com/asiefmahir"
-                skills={["JS", "REACT", "Next"]}
-                interests={["Chess", "Football"]}
-                socialLinks={[
-                    { platformName: "FB", handle: "fb/asiefmahir" },
-                    { platformName: "Twitter", handle: "x/asiefmahir" },
-                    {
-                        platformName: "LinkedIn",
-                        handle: "linkedin/in/asiefmahir",
-                    },
-                ]}
-            />
-
-        </>
-    );
+  // console.log("I am invoked");
+  return (
+    <>
+      <BioData
+        name="SR Setu"
+        email="srsetu@gmail.com"
+        phone="+245456452132452"
+        github="github.com/srsetu"
+        skills={["JS", "WP", "CSS", "REACT", "Next"]}
+        interests={["Chess", "Football", "Entrepreneurship"]}
+        socialLinks={[
+          { platformName: "FB", handle: "fb/srsetu" },
+          { platformName: "Twitter", handle: "x/srsetu" },
+          { platformName: "LinkedIn", handle: "linkedin/in/srsetu" }
+        ]}
+      />
+      <BioData
+        name="Mahir Asief"
+        email="asiefmahir1@gmail.com"
+        phone="+43543543545"
+        github="github.com/asiefmahir"
+        skills={["JS", "REACT", "Next"]}
+        interests={["Chess", "Football"]}
+        socialLinks={[
+          { platformName: "FB", handle: "fb/asiefmahir" },
+          { platformName: "Twitter", handle: "x/asiefmahir" },
+          {
+            platformName: "LinkedIn",
+            handle: "linkedin/in/asiefmahir",
+          },
+        ]}
+      />
+    </>
+  )
 }
 
-export default App;
+export default App
+
 
 // JSX = JavaScript XML
 // JSX er vitore JS code likhle = Second Bracket {} dibo, Eikhane JS ta array
 // skills={["JS", "WP", "CSS", "REACT", "Next"]}
 
 /**
- * props = {
- *   name: "SR Setu",
- *   email: "srsetu@gmail.com",
- *   phone: "+245456452132452",
- *   github: "github.com/srsetu",
- *   skills: ["JS", "WP", "CSS", "REACT", "Next"],
- *   interests: ["Chess", "Football", "Entrepreneurship"],
- *   socialLinks: [
- *     { platformName: "FB", handle: "fb/srsetu" },
- *     { platformName: "Twitter", handle: "x/srsetu" },
- *     { platformName: "LinkedIn", handle: "linkedin/in/srsetu" }
- *   ]
- * }
+ * A component must fulfil 3 criteria:
+ *   1) A component must be a function
+ *   2) That function should return "something"
+ *   3) That "something" should be some html-ish code (jsx)
  */
 
-
+// Props is actually parameter
