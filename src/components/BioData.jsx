@@ -51,3 +51,7 @@ export default function BioData(props) {
         </div>
     )
 }
+
+// component er 2 ta layer thake
+// Data Layer
+// Presentation Layer (design Part)
