@@ -39,8 +39,7 @@ export default App
  */
 
 // Props is actually parameter = As object we get always
-
-
+__________________________________________________________________________________________________________
 import './App.css'
 import BioData from './components/BioData'
 // Suppose, array akaare api(backend) theke data ashche, UI te dekhabo
@@ -55,28 +54,43 @@ const bioData = [
     socialLinks: [
       { platformName: "FB", handle: "fb/srsetu" },
       { platformName: "Twitter", handle: "x/srsetu" },
-      { platformName: "LinkedIn", handle: "linkedin/in/srsetu" }
+      { platformName: "LinkedIn", handle: "linkedin/In/srsetu" }
+    ]
+  },
+  {
+    name: "Mahier Asief",
+    email: "mahierasief@gmail.com",
+    phone: "+245786452132433",
+    github: "github.com/mahierasief",
+    skills: ["JavaScript", "React", "Next"],
+    interests: ["Chess", "Football"],
+    socialLinks: [
+      { platformName: "FB", handle: "fb/mahierasief" },
+      { platformName: "Twitter", handle: "x/mahierasief" },
+      { platformName: "LinkedIn", handle: "linkedin/In/mahierasief" }
     ]
   }
+
 ]
 
-
+{/* Second Bracket ta dilam uporer JS Array ta ke refer kortasi, Nicheo Same */ }
 function App() {
 
   return (
     <>
-      {bioData.map((singleBioData, index) => (
-        <div key={index}>
+      {
+        bioData.map(singleBioData => (
           <BioData
             name={singleBioData.name}
             email={singleBioData.email}
             phone={singleBioData.phone}
+            github={singleBioData.github}
             skills={singleBioData.skills}
             interests={singleBioData.interests}
             socialLinks={singleBioData.socialLinks}
           />
-        </div>
-      ))}
+        ))
+      }
     </>
   )
 }
