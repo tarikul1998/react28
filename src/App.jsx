@@ -39,7 +39,8 @@ export default App
  */
 
 // Props is actually parameter = As object we get always
-__________________________________________________________________________________________________________
+_____________________________________________________________________________________________________________________________________________________________________
+
 import './App.css'
 import BioData from './components/BioData'
 // Suppose, array akaare api(backend) theke data ashche, UI te dekhabo
