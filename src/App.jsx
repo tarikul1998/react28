@@ -38,7 +38,7 @@ export default App
  *   3) That "something" should be some html-ish code (jsx)
  */
 
-// Props is actually parameter
+// Props is actually parameter = As object we get always
 
 
 import './App.css'
@@ -57,20 +57,7 @@ const bioData = [
       { platformName: "Twitter", handle: "x/srsetu" },
       { platformName: "LinkedIn", handle: "linkedin/in/srsetu" }
     ]
-  },
-  {
-    name: "Mahir Asief",
-    email: "asiefmahir1@gmail.com",
-    phone: "+245456452132452",
-    github: "github.com/asiefmahit",
-    skills: ["JS", "REACT", "Next"],
-    interests: ["Chess", "Football"],
-    socialLinks: [
-      { platformName: "FB", handle: "fb/srsetu" },
-      { platformName: "Twitter", handle: "x/srsetu" },
-      { platformName: "LinkedIn", handle: "linkedin/in/srsetu" }
-    ]
-  },
+  }
 ]
 
 
@@ -88,7 +75,6 @@ function App() {
             interests={singleBioData.interests}
             socialLinks={singleBioData.socialLinks}
           />
-          <hr /><hr />
         </div>
       ))}
     </>
